@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>My Pinterest</title>
+</head>
+<body>
+
+<!-- BURGER -->
+<div class="container">
+    <header class="header">
+        <div class="logo">
+          <img class="logo_img" src="./images/пинтерест.png" alt="">
+          <h1 class="logo_text">Welcome to my pinterest!</h1>
+        </div>
+        <nav class="nav">
+          <ul class="menu" id="menu">
+            <li><a class="a_header" href="#">1 album</a></li>
+            <li><a class="a_header" href="#">2 album</a></li>
+            <li><a class="a_header" href="#">3 album</a></li>
+            <li><a class="a_header" href="#">4 album</a></li>
+          </ul>
+        </nav>
+        <div class="burger">
+            <span></span>
+        </div>
+    </header>
+</div>
+
+<!-- POPAP -->
+<div class="par1">
+  <h1>1 album: a cat with a guitar</h1>
+<button class="header__btn">
+  Click it!
+</button>
+</div>
+<div class="popap">
+  <div class="popap__body">
+      <img class="popap__img" src="./images/фиолетовая киса.png" alt="Фиолетовая-киса">
+      <div class="popap__close">&#10006;</div>
+  </div>
+</div>
+
+<!-- TABS -->
+<h1>2 aulbom: different types of cats</h1>
+<div class="tabs__nav">
+    <ul class="tabs__list">
+        <li data-tab="tab-1" class="tabs__item">Cat in the space</li>
+        <li data-tab="tab-2" class="tabs__item">Cat withe a girle</li>
+        <li data-tab="tab-3" class="tabs__item">Strawberry club</li>
+        <li data-tab="tab-4" class="tabs__item">A big cat(tiger)</li>
+    </ul>
+</div>
+
+
+<main class="main">
+
+  <div id="tab-1" class="main__content hidden">
+    <h3 style="text-align: center; padding-bottom: 10px;">Cat in the space</h3>
+    <img class="tabs_img" src="./images/in the space.png" alt="Cat_1">
+    <h3>Eius in repudiandae vel, animi quidem veritatis. Consectetur, exercitationem aliquam sed mollitia possimus repellat tempora quibusdam quod eveniet qui rem nihil sequi, hic eaque esse ex corporis distinctio adipisci laboriosam incidunt nesciunt magnam? </h3>
+  </div>
+
+  <div id="tab-2" class="main__content hidden">
+    <h3 style="text-align: center; padding-bottom: 10px;">Cat with a girl</h3>
+    <img class="tabs_img" src="./images/Cool cat.png" alt="Cat_2">
+    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta labore, odit repellat eligendi dolorum nesciunt officia mollitia rerum dolor reiciendis magnam omnis minima saepe quas nemo tempora aliquid ratione facere totam molestiae fuga.</h3>
+  </div>
+
+  <div id="tab-3" class="main__content">
+      <h3 style="text-align: center; padding-bottom: 10px;">Strawberry club</h3>
+      <img class="tabs_img" src="./images/котклубничный.jpg" alt="Cat_3">
+      <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum voluptas necessitatibus cumque deserunt saepe quisquam inventore quas ullam, temporibus neque quam voluptates facilis debitis non maiores ad expedita.</h3>
+  </div>
+
+  <div id="tab-4" class="main__content hidden">
+      <h3 style="text-align: center; padding-bottom: 10px;">A big cat(tiger)</h3>
+      <img class="tabs_img" src="./images/tiger.png" alt="Cat_3">
+      <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, explicabo sunt quasi cumque culpa nobis ipsum error voluptas sint, architecto labore saepe, dolores impedit repellat minus voluptates nisi expedita. Deserunt.</h3>
+  </div>
+</main> 
+
+
+<!-- ACCORDION -->
+<div class="par3">
+  <h1>3 aulbom: specific memes</h1>
+
+  <div class="accordion" id="accordion">
+    <div data-tab="tab-5" class="accordion__title">
+        <h3>Not a funny joke №1</h3>
+        <span></span>
+    </div>
+    <div id="tab-5" class="accordion__content">
+        <img src="./images/грозный шмель.png" alt="">
+        <button class="btn_tab">See more!</button>
+    </div>
+  </div>
+  <div class="accordion">
+      <div data-tab="tab-6" class="accordion__title">
+          <h3>Not a funny joke №2</h3>
+          <span></span>
+      </div>
+      <div id="tab-6" class="accordion__content">
+          <img src="./images/цветок.png" alt="">
+          <button class="btn_tab">See more!</button>
+      </div>
+  </div>
+  <div class="accordion">
+      <div data-tab="tab-7" class="accordion__title">
+          <h3>Not a funny joke №3</h3>
+          <span></span>
+      </div>
+      <div id="tab-7" class="accordion__content">
+          <img src="./images/раббит.png" alt="">
+          <button class="btn_tab">See more!</button>
+      </div>
+  </div>
+</div>
+
+<!-- SLIDER -->
+
+
+<div class="slider-container">
+  <h1>4 aulbom: korean andergraund</h1>
+  <div class="slider">
+    <img src="./images/крутый винченцо.png" alt="cool">
+    <img src="./images/фан винченцо.png" alt="Рыжий пушистый кот в джинсах">
+    <img src="./images/лис.png" alt="Бело-рыжий пушистый кот">
+    <img src="./images/food is life.jpg" alt="еда это жизнь">
+    <img src="./images/голубь.jpg" alt="голубь">
+  </div>
+  <button class="prev-button" aria-label="Посмотреть предыдущий слайд">
+    <img src="./images/налево.png" alt="">
+  </button>
+  <button class="next-button" aria-label="Посмотреть следующий слайд">
+    <img src="./images/направо.png" alt=""></button>
+</div>
+</main>
+
+<!-- FILTER -->
+<div class="filter_container">
+  <h1>5 aulbom: I couldn't identify it</h1>
+  <div class="filter-buttons">
+    <button class="filter-button" data-filter="all" id="spec">ALL</button><button class="filter-button" data-filter="category1">Keith Haring</button><button class="filter-button" data-filter="category2">Alive paintings</button><button class="filter-button" data-filter="category3">Just a people</button>
+  </div>
+
+  <div class="objects">
+    <div class="object category1"><img src="./images/kaith harry.png" alt=""></div>
+    <div class="object category2"><img src="./images/с картиной 3.png" alt=""></div>
+    <div class="object category3"><img src="./images/человек 1.png" alt=""></div>
+    <div class="object category1"><img src="./images/keith haring 2.png" alt=""></div>
+    <div class="object category2"><img src="./images/kiss 1.png" alt=""></div>
+    <div class="object category3"><img src="./images/человек 2 1.png" alt=""></div>
+    <div class="object category1"><img src="./images/love.png" alt=""></div>
+    <div class="object category2"><img src="./images/с картиной 2.png" alt=""></div>
+  </div>
+</div>
+<div class="end">
+  <h1>THE END</h1>
+</div>
+<div class="ends">
+  <h3>prod. by Nastia</h3>
+</div>
+<script src="./js/script.js"></script>
+</body>
+</html>
